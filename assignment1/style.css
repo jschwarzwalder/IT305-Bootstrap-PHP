@@ -1,0 +1,25 @@
+.main {
+	border-left: thick solid #0099cc;
+	width: 490px;
+	font-family: Georgia, Serif;
+}
+.logo{
+	text-align: center;
+}
+.feature {
+	margin: 10px 0px;
+	font-size: small;
+	text-align: center;
+}
+h2 {
+	font-size:medium;
+}
+.more {
+	background-color: #ffffe5;
+	margin-left: 6px;
+	padding: 5px;
+}
+.more img {
+	margin: 2px 1px;
+	border: thin solid grey;
+}
