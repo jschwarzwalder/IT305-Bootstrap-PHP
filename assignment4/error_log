@@ -1,0 +1,22 @@
+[18-Jan-2016 03:38:09 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/jschwarzwalder/public_html/it305/assignment4/php1.php on line 68
+[18-Jan-2016 03:50:55 America/Chicago] PHP Parse error:  syntax error, unexpected '' | Should be 1.57 - round(1.5' (T_CONSTANT_ENCAPSED_STRING) in /home/jschwarzwalder/public_html/it305/assignment4/php1.php on line 79
+[18-Jan-2016 04:04:04 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/jschwarzwalder/public_html/it305/assignment4/php1.php on line 104
+[18-Jan-2016 04:14:53 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/jschwarzwalder/public_html/it305/assignment4/php1.php on line 104
+[18-Jan-2016 04:26:32 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/jschwarzwalder/public_html/it305/assignment4/php1.php on line 104
+[18-Jan-2016 04:28:05 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/jschwarzwalder/public_html/it305/assignment4/php1.php on line 104
+[18-Jan-2016 04:32:35 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/jschwarzwalder/public_html/it305/assignment4/php1.php on line 104
+[18-Jan-2016 04:33:01 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/jschwarzwalder/public_html/it305/assignment4/php1.php on line 104
+[18-Jan-2016 04:37:01 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/jschwarzwalder/public_html/it305/assignment4/php1.php on line 104
+[18-Jan-2016 04:42:47 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/jschwarzwalder/public_html/it305/assignment4/php1.php on line 104
+[18-Jan-2016 04:42:47 America/Chicago] PHP Fatal error:  Cannot redeclare printPhrase() (previously declared in /home/jschwarzwalder/public_html/it305/assignment4/php1.php:194) in /home/jschwarzwalder/public_html/it305/assignment4/php1.php on line 242
+[18-Jan-2016 04:43:16 America/Chicago] PHP Fatal error:  Cannot redeclare printPhrase() (previously declared in /home/jschwarzwalder/public_html/it305/assignment4/php1.php:194) in /home/jschwarzwalder/public_html/it305/assignment4/php1.php on line 242
+[18-Jan-2016 04:44:23 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/jschwarzwalder/public_html/it305/assignment4/php1.php on line 252
+[18-Jan-2016 04:52:55 America/Chicago] PHP Parse error:  syntax error, unexpected 'for' (T_FOR) in /home/jschwarzwalder/public_html/it305/assignment4/php1.php on line 266
+[18-Jan-2016 04:53:39 America/Chicago] PHP Parse error:  syntax error, unexpected '=', expecting ';' in /home/jschwarzwalder/public_html/it305/assignment4/php1.php on line 266
+[18-Jan-2016 04:54:08 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ';' in /home/jschwarzwalder/public_html/it305/assignment4/php1.php on line 266
+[18-Jan-2016 04:54:28 America/Chicago] PHP Parse error:  syntax error, unexpected '=', expecting ';' in /home/jschwarzwalder/public_html/it305/assignment4/php1.php on line 266
+[18-Jan-2016 04:55:28 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/jschwarzwalder/public_html/it305/assignment4/php1.php on line 266
+[20-Jan-2016 06:56:26 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/jschwarzwalder/public_html/it305/assignment4/practice.php on line 52
+[20-Jan-2016 06:56:43 America/Chicago] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/jschwarzwalder/public_html/it305/assignment4/practice.php on line 52
+[20-Jan-2016 06:58:42 America/Chicago] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/jschwarzwalder/public_html/it305/assignment4/practice.php on line 63
+[20-Jan-2016 06:58:55 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jschwarzwalder/public_html/it305/assignment4/practice.php on line 65
