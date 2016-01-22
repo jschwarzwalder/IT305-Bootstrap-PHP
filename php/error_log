@@ -1,0 +1,18 @@
+[16-Jan-2016 03:28:27 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/jschwarzwalder/public_html/it305/php/comments.php on line 9
+[16-Jan-2016 03:29:03 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/jschwarzwalder/public_html/it305/php/comments.php on line 14
+[16-Jan-2016 03:46:46 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/jschwarzwalder/public_html/it305/php/second.php on line 9
+[16-Jan-2016 03:57:32 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/jschwarzwalder/public_html/it305/php/numbers.php on line 14
+[16-Jan-2016 03:58:55 America/Chicago] PHP Parse error:  syntax error, unexpected '$total' (T_VARIABLE), expecting ',' or ';' in /home/jschwarzwalder/public_html/it305/php/numbers.php on line 27
+[16-Jan-2016 03:59:13 America/Chicago] PHP Parse error:  syntax error, unexpected '$total' (T_VARIABLE), expecting ',' or ';' in /home/jschwarzwalder/public_html/it305/php/numbers.php on line 27
+[16-Jan-2016 04:00:02 America/Chicago] PHP Parse error:  syntax error, unexpected '$total' (T_VARIABLE), expecting ',' or ';' in /home/jschwarzwalder/public_html/it305/php/numbers.php on line 27
+[16-Jan-2016 04:00:55 America/Chicago] PHP Parse error:  syntax error, unexpected '$total' (T_VARIABLE), expecting ',' or ';' in /home/jschwarzwalder/public_html/it305/php/numbers.php on line 26
+[17-Jan-2016 18:25:16 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/jschwarzwalder/public_html/it305/php/constants.php on line 17
+[17-Jan-2016 18:25:45 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/jschwarzwalder/public_html/it305/php/constants.php on line 17
+[17-Jan-2016 18:26:11 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/jschwarzwalder/public_html/it305/php/constants.php on line 17
+[17-Jan-2016 18:44:45 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/jschwarzwalder/public_html/it305/php/quotes.php on line 27
+[17-Jan-2016 18:45:38 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/jschwarzwalder/public_html/it305/php/quotes.php on line 32
+[17-Jan-2016 19:59:19 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/jschwarzwalder/public_html/it305/php/handle_form2.php on line 32
+[17-Jan-2016 19:59:40 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/jschwarzwalder/public_html/it305/php/handle_form2.php on line 32
+[18-Jan-2016 01:01:26 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jschwarzwalder/public_html/it305/php/handle_form4.php on line 16
+[18-Jan-2016 01:01:38 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/jschwarzwalder/public_html/it305/php/handle_form4.php on line 19
+[18-Jan-2016 01:24:23 America/Chicago] PHP Parse error:  syntax error, unexpected ''</selection>;' (T_ENCAPSED_AND_WHITESPACE) in /home/jschwarzwalder/public_html/it305/php/caldendar.php on line 32
