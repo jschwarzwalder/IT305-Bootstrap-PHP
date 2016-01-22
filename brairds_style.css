@@ -1,0 +1,36 @@
+h1 {
+	font-family:Georgia, Times, serif;
+	font-size:42px;
+	text-shadow: 3px 3px #666666;
+	color: #0099cc;
+}
+
+h2 {
+	color: #0099cc;
+	font-family: "Gill Sans", Arial, sans-serif;
+	font-size: 32px;
+	font-variant: small-caps;
+	letter-spacing: 0.2em;
+	font-weight: 900;
+}
+p{
+	color:gray;
+}
+h3 {
+	color: #0099cc;
+	font-size:36px;
+}
+.paragraph {
+	font-family: Arial, Veranda, sans-serif;
+	line-height: 1.4em;
+}
+.sentence:first-line {
+	font-weight: 600;
+}
+.briard {
+	color: #0099cc;
+}
+.author{
+	text-align:right;
+	font-style: italic;
+}

@@ -1,0 +1,66 @@
+body{
+    font-family: Courier New, Courier, monospace;
+    letter-spacing:0.15em;
+    background-color:  #d1d1e0;
+    text-align: center;
+}
+
+.content {
+    background-color: white;
+    border: double 4px black;
+    max-width: 940px;
+    min-width: 720px;
+    text-align: center;
+    padding: 2% 10%;
+    margin:1%;
+     margin-left: auto ;
+     margin-right: auto ;
+
+}
+ul {
+    list-style-type: none;
+    margin: 10px 0px;
+    padding:0;
+    
+}
+
+li a {
+      display: block;
+      width: 100px;
+      margin: 5px;
+      float:left;
+      text-align: center;
+      text-decoration: none;
+      padding: 10px;
+}
+
+nav{
+    width: 650px;
+    text-align: center;
+    border-top: solid thick black ;
+    border-bottom: solid thin black ;
+    height: 60px;
+    margin-left: auto ;
+    margin-right: auto ;
+    text-transform: uppercase;
+   
+}
+.images{
+    clear:both;
+    width: 600px;
+    letter-spacing: 0em;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+a{
+    color:black;
+}
+a:hover {
+    color:red;
+}
+.desc{
+    width:600px;
+    min-margin-left: 25px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
