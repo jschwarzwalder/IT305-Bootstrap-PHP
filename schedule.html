@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Schedule</title>
+        <style>
+            table, th, td {
+                border: 2px solid black;
+                border-collapse: collapse;
+            }
+            th, td {
+                padding: 15px;
+                width: 100px;
+            }
+            th {
+                text-align: left;
+            }
+            .work {
+                background-color: Navy ;
+                color: #808080;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>My Schedule</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th>10am</th>
+                    <th>Noon</th>
+                    <th>2pm</th>
+                    <th>4pm</th>
+                    <th>6pm</th>
+                    <th>8pm</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td colspan=4 class="work">Work</td>
+                    <td colspan=2>Homework</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>Meeting</td>
+                    <td colspan=5 class="work">Work</td>
+                    
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td colspan=2 class="work">System Work</td>
+                    <td colspan=2 class="work">Work</td>
+                    <td colspan=2>Class</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td colspan=4 class="work">Work</td>
+                    <td colspan=2>Meetup</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td colspan=4 class="work">Work</td>
+                    <td colspan=2>Volunteer (1x month)</td>
+                </tr>
+            </tbody>
+        </table>
+                
+    </body>
+</html>

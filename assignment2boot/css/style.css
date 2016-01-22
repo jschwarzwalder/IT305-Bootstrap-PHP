@@ -1,0 +1,43 @@
+.navbar-default {
+  border: none;
+}
+
+header {
+  background: url('../images/headerimage.jpg') center center no-repeat;
+  height: 600px;
+}
+.bgimage {
+    background-image: url('../images/reptiles.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    color:white;
+}
+.icon {
+  max-width: 150px;
+  margin: 0 auto;
+  display: block;
+}
+
+.services section {
+  text-align: center;
+}
+
+@media(min-width: 1200px) {
+  h3 {
+    margin-top: 0;
+  }
+  .services section {
+    text-align: left;
+  }
+}
+.navbar-default {
+  width: 100%;
+  z-index: 100;
+}
+@media(max-width: 767px){
+  .img-responsive{
+    max-width: 60%;
+    max-width: 300px;
+  }
+}
