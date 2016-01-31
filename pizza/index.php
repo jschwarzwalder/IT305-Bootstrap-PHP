@@ -26,7 +26,7 @@
              if (validName($_GET['fname'])) {
                  $fname = $_GET['fname'];
              } else {
-                 print "<p>Invalid first name.</p>";
+                 print "<p>Please enter your first name.</p>";
                  $isValid = false;
              }
      
@@ -34,9 +34,22 @@
              if (validName($_GET['lname'])) {
                  $lname = $_GET['lname'];
              } else {
-                 print "<p>Invalid last name.</p>";
+                 print "<p>Please enter your last name.</p>";
                  $isValid = false;
              }
+			 
+			 //See if the form has been submitted
+  
+
+			//Get the method (pick up or delivery)
+			$method = "";
+			if (isset($_GET['method']) && validDelivery($_GET['method'])) {
+				$method = $_GET['method'];
+			} else {
+				print "<p>Please select Pick-up or Delivery.</p>";
+				$isValid = false;                
+	
+
          }
      ?>	
 

@@ -8,6 +8,15 @@
             return false;
         }
      }
+	 
+	 function validDelivery($option) {
+		 if ($option == "pickup" || $option == "delivery") {
+			return true;
+		 } else {
+			return false;
+		 }
+		 
+	 }
 
 
 ?>
