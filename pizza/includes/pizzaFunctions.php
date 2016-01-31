@@ -17,6 +17,21 @@
 		 }
 		 
 	 }
-
+	 
+	 function validToppings($toppings){
+	  //toppings array
+	  $ToppingOptions = array('pepperoni', 'sausage', 'olives',  'artichokes', 'anchovies' );
+	  
+	  //is topping selected?
+	  foreach ($toppings as $topping) {
+		 if (!in_array($topping, $ToppingOptions)) {
+			return false;
+		 }
+	  }
+	  
+	  return true;
+	  }
+	  
+	  
 
 ?>
