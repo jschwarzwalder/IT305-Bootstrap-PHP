@@ -135,9 +135,9 @@
 		<fieldset>
 			<legend>Contact Info</legend>
                 First Name:&nbsp;<input type="text" size="20" maxlength="20" name="fname" id="fname"
-			value="">&nbsp
+			value="<?php echo $fname; ?>">&nbsp
 		    Last Name:&nbsp;<input type="text" size="20" maxlength="20" name="lname" id="lname"
-		        value=""><br>
+		        value="<?php echo $lname; ?>"><br>
 		    <label>Address:<br>
                 <textarea rows="5" cols="20" name="address"
 					id="address"></textarea>
