@@ -2,9 +2,12 @@
 	// Functions to validate the pizza form
     
      function validName($string){
-            return ctype_alpha($string) AND !empty($string);
+        if (ctype_alpha($string) && !empty($string)){
+            return true;
         } else {
             return false;
         }
+     }
+
 
 ?>

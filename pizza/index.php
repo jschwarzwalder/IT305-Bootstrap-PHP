@@ -1,13 +1,44 @@
+<?php
+	// Turn on error reporting
+   ini_set('display_errors', 1);
+   error_reporting(E_ALL);
+
+	// Include the pizza validation functions
+	include ("includes/pizzaFunctions.php");
+?>
 
 <!DOCTYPE html>
 
 <html>
 <head> 
     <title>Poppa's Pizza</title>
-	<link rel="stylesheet" type="text/css" href="pizzaStyles.css">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
-    
+    <?php
+        //See if the form has been submitted
+        if (isset($_GET['submit'])) {
+     
+             //Create a boolean flag to track validation errors
+             $isValid = true;
+     
+             //Check first name
+             if (validName($_GET['fname'])) {
+                 $fname = $_GET['fname'];
+             } else {
+                 print "<p>Invalid first name.</p>";
+                 $isValid = false;
+             }
+     
+             //Check last name
+             if (validName($_GET['lname'])) {
+                 $lname = $_GET['lname'];
+             } else {
+                 print "<p>Invalid last name.</p>";
+                 $isValid = false;
+             }
+         }
+     ?>	
 
     <div id="main">
 	<h1>Welcome to Poppa's Pizza</h1>
