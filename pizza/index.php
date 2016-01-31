@@ -38,9 +38,7 @@
                  $isValid = false;
              }
 			 
-			 //See if the form has been submitted
-  
-
+			 
 			//Get the method (pick up or delivery)
 			$method = "";
 			if (isset($_GET['method']) && validDelivery($_GET['method'])) {
@@ -48,7 +46,7 @@
 			} else {
 				print "<p>Please select Pick-up or Delivery.</p>";
 				$isValid = false;                
-	
+			}
 
          }
      ?>	
