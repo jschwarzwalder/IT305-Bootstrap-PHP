@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 
-<html>
-<head> 
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
     <title>Poppa's Pizza</title>
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
@@ -15,7 +16,12 @@
 
 	// Include the pizza validation functions
 	include ("includes/pizzaFunctions.php");
+	
 
+	$fname = "";
+	$lname = "";
+	$method = "";
+	
         //See if the form has been submitted
         if (isset($_GET['submit'])) {
      
@@ -27,6 +33,7 @@
                  $fname = $_GET['fname'];
              } else {
                  print "<p>Please enter your first name.</p>";
+				  $fname = NULL;
                  $isValid = false;
              }
      
@@ -35,6 +42,7 @@
                  $lname = $_GET['lname'];
              } else {
                  print "<p>Please enter your last name.</p>";
+				  $lname = NULL;
                  $isValid = false;
              }
 			 
@@ -54,6 +62,7 @@
 				}
 			} else {
 				print "<p>Please select Pick-up or Delivery.</p>";
+				$method = NULL;
 				$isValid = false;                
 			}
 			
@@ -130,13 +139,13 @@
 
     
         
-	<form method="get" action="">
+	<form method="get" action="index.php">
             
 		<fieldset>
 			<legend>Contact Info</legend>
-                First Name:&nbsp;<input type="text" size="20" maxlength="20" name="fname" id="fname"
-			value="<?php echo $fname; ?>">&nbsp
-		    Last Name:&nbsp;<input type="text" size="20" maxlength="20" name="lname" id="lname"
+                First Name:<input type="text" size="20" maxlength="20" name="fname" id="fname"
+			value="<?php echo $fname; ?>">
+			Last Name:<input type="text" size="20" maxlength="20" name="lname" id="lname"
 		        value="<?php echo $lname; ?>"><br>
 		    <label>Address:<br>
                 <textarea rows="5" cols="20" name="address"
@@ -146,14 +155,18 @@
 
 		<fieldset>
             <legend>Choose One</legend>
-		    <label><input type="radio" value="pickup" name="method" id="method" 		    >&nbsp;Pick-up</label><br>
-		    <label><input type="radio" value="delivery" name="method" id="method" 		    >&nbsp;Delivery</label>		
+		    <label><input type="radio" value="pickup" name="method" id="method"
+			<?php if ($method == "pickup") { echo " checked ";} ?>
+			>&nbsp;Pick-up</label><br>
+		    <label><input type="radio" value="delivery" name="method" id="method"
+			<?php if ($method == "delivery") { echo " checked ";} ?>
+			>&nbsp;Delivery</label>		
         </fieldset>
 
 		<fieldset>
 			<legend>Toppings</legend>
 		    
-		    <label><input type='checkbox'
+		    <label><input type='checkbox' 
 				value='pepperoni' name='toppings[]' >Pepperoni</label><br><label><input type='checkbox'
 				value='sausage' name='toppings[]' >Sausage</label><br><label><input type='checkbox'
 				value='olives' name='toppings[]' >Olives</label><br><label><input type='checkbox'
