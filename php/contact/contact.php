@@ -4,18 +4,19 @@ $missing = [];
 if (isset($_POST['send'])) {
     $expected = ['name', 'email', 'comments'];
     $required = ['name', 'comments'];
-    $to = 'David Powers <david@example.com>';
+    $to = 'Jami Schwarzwalder <Jschwarzwalder@mail.greenriver.edu>';
     $subject = 'Feedback from online form';
     $headers = [];
-    $headers[] = 'From: webmaster@example.com';
+    $headers[] = 'From: mycustomfromaddress@example.com';
     $headers[] = 'Cc: another@example.com';
     $headers[] = 'Content-type: text/plain; charset=utf-8';
     $authorized = '-fdavid@example.com';
     require './includes/process_mail.php';
-    if ($mailSent) {
+    if ($mailSent)  {
         header('Location: thanks.php');
         exit;
     }
+   
 }
 ?>
 <!doctype html>
@@ -80,5 +81,15 @@ if (isset($_POST['send'])) {
     <input type="submit" name="send" id="send" value="Send Comments">
   </p>
 </form>
+<!--<pre>
+    //<?php
+    //if ($_POST && $mailSent) {
+    //    echo "Message: \n\n";
+    //    echo htmlentities($message);
+    //    echo "Headers: \n\n";
+    //    echo htmlentities($headers);
+    //}
+    //?>
+</pre>-->
 </body>
 </html>
