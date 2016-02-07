@@ -11,13 +11,15 @@ if (isset($_POST['send'])) {
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Preserving input</title>
+<title>Blocking suspect phrases</title>
 <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 <h1>Contact Us</h1>
-<?php if ($errors || $missing) : ?>
+<?php if ($_POST && $suspect) : ?>
+<p class="warning">Sorry, your mail couldn't be sent.</p>
+<?php elseif ($errors || $missing) : ?>
 <p class="warning">Please fix the item(s) indicated</p>
 <?php endif; ?>
 <form method="post" action="<?= $_SERVER['PHP_SELF']; ?>">
