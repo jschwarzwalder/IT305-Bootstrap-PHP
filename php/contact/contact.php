@@ -4,20 +4,31 @@ $missing = [];
 if (isset($_POST['send'])) {
     $expected = ['name', 'email', 'comments'];
     $required = ['name', 'comments'];
+    $to = 'David Powers <david@example.com>';
+    $subject = 'Feedback from online form';
+    $headers = [];
+    $headers[] = 'From: webmaster@example.com';
+    $headers[] = 'Cc: another@example.com';
+    $headers[] = 'Content-type: text/plain; charset=utf-8';
+    $authorized = '-fdavid@example.com';
     require './includes/process_mail.php';
+    if ($mailSent) {
+        header('Location: thanks.php');
+        exit;
+    }
 }
 ?>
 <!doctype html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Blocking suspect phrases</title>
+<title>Message body</title>
 <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 <h1>Contact Us</h1>
-<?php if ($_POST && $suspect) : ?>
+<?php if ($_POST && ($suspect || isset($errors['mailfail']))) : ?>
 <p class="warning">Sorry, your mail couldn't be sent.</p>
 <?php elseif ($errors || $missing) : ?>
 <p class="warning">Please fix the item(s) indicated</p>
@@ -41,6 +52,8 @@ if (isset($_POST['send'])) {
     <label for="email">Email:
         <?php if ($missing && in_array('email', $missing)) : ?>
             <span class="warning">Please enter your email address</span>
+        <?php elseif (isset($errors['email'])) : ?>
+            <span class="warning">Invalid email address</span>
         <?php endif; ?>
     </label>
     <input type="email" name="email" id="email"
