@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Fun with jQuery</title>
+</head>
+
+<body>
+    <h2>Hello, jQuery!</h2>
+    <button id='btnOuch'>Say Ouch</button>
+    <p>    <a>Link 1</a>    </p>
+    <p>    <a>Link 2</a>    </p>
+    <h2>Sub-Heading 1</h2>
+    <h2>Sub-Heading 2</h2>
+    <button id='btnHide'>Hide</button>
+    <p class='myClass'>This is a paragraph</p>
+    <p class='myClass'>Another paragraph</p>
+    <p id='p3'>This is a third paragraph</p>
+    <button id='btnShow'>Show</button>
+    <p id='lemon'>Lemon drops biscuit chocolate…</p>
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script>
+        $("#btnOuch").click(function(){
+            alert("Ouch! That hurt.")
+        });
+        
+        $("a").click(function(){
+            alert("You clicked a link!")
+        });
+        
+        $("h2").click(function(){
+            $(this).hide();
+        });
+        
+            
+          $("#btnHide").click(function(){
+                $("p.myClass").hide();
+          });
+          
+          $("#btnHide").click(function(){
+                $("#p3").hide("slow");
+          });
+
+       
+        $("#btnShow").click(function(){
+            $("p").show("slow");
+        });
+        
+        
+        $("#lemon").mouseover(function(){
+              $(this).append(" Cookie! ");
+        });
+
+
+                
+
+                
+
+
+        
+    </script>
+
+
+</body>
+</html>

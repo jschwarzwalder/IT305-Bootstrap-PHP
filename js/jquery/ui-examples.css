@@ -1,0 +1,49 @@
+body {
+	font-family: helveticaneue, "Helvetica Neue", helvetica, sans-serif;
+	padding: 1em;
+}
+
+.example {
+	margin-bottom: 2em;
+}
+
+.ui-widget {
+	font-size: 100%;
+}
+
+#group-of-three {
+	max-width: 500px;
+}
+
+button {
+	margin: 1em 0;
+}
+
+#date-picker-native {
+	font-size: 150%;
+}
+
+#date-picker {
+	font-size: 150%;
+}
+
+.sorts ul {
+	margin: 2em 0;
+	padding: 0.5em;
+	width: 400px;
+	
+	overflow: hidden;
+	border: 1px solid #999;
+}
+
+.sorts li {
+	padding-left: 0;
+	margin-left: 0;
+	line-height: 1.4;
+	list-style: none;
+	float: left;
+	margin: 5px;
+}
+
+.sorts li:hover {
+}
