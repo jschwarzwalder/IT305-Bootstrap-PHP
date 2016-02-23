@@ -1,0 +1,4 @@
+[06-Feb-2016 05:13:24 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/jschwarzwalder/public_html/it305/php/contact/contact.php on line 39
+[06-Feb-2016 05:14:03 America/Chicago] PHP Fatal error:  Function name must be a string in /home/jschwarzwalder/public_html/it305/php/contact/contact.php on line 11
+[06-Feb-2016 23:22:12 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/jschwarzwalder/public_html/it305/php/contact/index.php on line 32
+[06-Feb-2016 23:22:44 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in /home/jschwarzwalder/public_html/it305/php/contact/index.php on line 32

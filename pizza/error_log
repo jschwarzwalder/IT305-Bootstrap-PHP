@@ -1,0 +1,31 @@
+[30-Jan-2016 21:14:26 America/Chicago] PHP Fatal error:  Call to undefined function validName() in /home/jschwarzwalder/public_html/it305/pizza/index.php on line 18
+[30-Jan-2016 21:15:14 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/jschwarzwalder/public_html/it305/pizza/includes/pizzaFunctions.php on line 6
+[30-Jan-2016 21:16:16 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/jschwarzwalder/public_html/it305/pizza/includes/pizzaFunctions.php on line 6
+[30-Jan-2016 21:16:21 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/jschwarzwalder/public_html/it305/pizza/includes/pizzaFunctions.php on line 6
+[30-Jan-2016 21:18:31 America/Chicago] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting '(' in /home/jschwarzwalder/public_html/it305/pizza/includes/pizzaFunctions.php on line 5
+[30-Jan-2016 21:18:52 America/Chicago] PHP Parse error:  syntax error, unexpected 'ctype_alpha' (T_STRING), expecting '(' in /home/jschwarzwalder/public_html/it305/pizza/includes/pizzaFunctions.php on line 5
+[30-Jan-2016 21:19:20 America/Chicago] PHP Parse error:  syntax error, unexpected 'ctype_alpha' (T_STRING), expecting '(' in /home/jschwarzwalder/public_html/it305/pizza/includes/pizzaFunctions.php on line 5
+[30-Jan-2016 21:19:56 America/Chicago] PHP Parse error:  syntax error, unexpected '!', expecting '(' in /home/jschwarzwalder/public_html/it305/pizza/includes/pizzaFunctions.php on line 5
+[30-Jan-2016 21:20:18 America/Chicago] PHP Parse error:  syntax error, unexpected 'and' (T_LOGICAL_AND) in /home/jschwarzwalder/public_html/it305/pizza/includes/pizzaFunctions.php on line 5
+[30-Jan-2016 21:25:50 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/jschwarzwalder/public_html/it305/pizza/includes/pizzaFunctions.php on line 12
+[30-Jan-2016 21:34:28 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/jschwarzwalder/public_html/it305/pizza/includes/pizzaFunctions.php on line 12
+[30-Jan-2016 21:35:19 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/jschwarzwalder/public_html/it305/pizza/includes/pizzaFunctions.php on line 12
+[30-Jan-2016 23:11:53 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/jschwarzwalder/public_html/it305/pizza/index.php on line 110
+[30-Jan-2016 23:24:35 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/jschwarzwalder/public_html/it305/pizza/index.php on line 111
+[30-Jan-2016 23:27:12 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/jschwarzwalder/public_html/it305/pizza/index.php on line 116
+[30-Jan-2016 23:37:58 America/Chicago] PHP Parse error:  syntax error, unexpected '=', expecting '(' in /home/jschwarzwalder/public_html/it305/pizza/includes/pizzaFunctions.php on line 26
+[30-Jan-2016 23:38:32 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/jschwarzwalder/public_html/it305/pizza/includes/pizzaFunctions.php on line 29
+[31-Jan-2016 04:12:13 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/jschwarzwalder/public_html/it305/pizza/includes/pizzaFunctions.php on line 48
+[31-Jan-2016 05:17:15 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/jschwarzwalder/public_html/it305/pizza/index.php on line 128
+[31-Jan-2016 05:37:44 America/Chicago] PHP Notice:  Undefined variable: fname in /home/jschwarzwalder/public_html/it305/pizza/index.php on line 138
+[31-Jan-2016 05:37:44 America/Chicago] PHP Notice:  Undefined variable: lname in /home/jschwarzwalder/public_html/it305/pizza/index.php on line 140
+[31-Jan-2016 05:42:04 America/Chicago] PHP Parse error:  syntax error, unexpected '$method' (T_VARIABLE), expecting '(' in /home/jschwarzwalder/public_html/it305/pizza/index.php on line 152
+[31-Jan-2016 05:42:23 America/Chicago] PHP Notice:  Undefined variable: fname in /home/jschwarzwalder/public_html/it305/pizza/index.php on line 140
+[31-Jan-2016 05:42:23 America/Chicago] PHP Notice:  Undefined variable: lname in /home/jschwarzwalder/public_html/it305/pizza/index.php on line 142
+[31-Jan-2016 05:42:23 America/Chicago] PHP Notice:  Undefined variable: method in /home/jschwarzwalder/public_html/it305/pizza/index.php on line 152
+[31-Jan-2016 05:43:05 America/Chicago] PHP Notice:  Undefined variable: fname in /home/jschwarzwalder/public_html/it305/pizza/index.php on line 140
+[31-Jan-2016 05:43:05 America/Chicago] PHP Notice:  Undefined variable: lname in /home/jschwarzwalder/public_html/it305/pizza/index.php on line 142
+[31-Jan-2016 05:43:05 America/Chicago] PHP Notice:  Undefined variable: method in /home/jschwarzwalder/public_html/it305/pizza/index.php on line 151
+[31-Jan-2016 05:45:09 America/Chicago] PHP Notice:  Undefined variable: fname in /home/jschwarzwalder/public_html/it305/pizza/index.php on line 140
+[31-Jan-2016 05:45:09 America/Chicago] PHP Notice:  Undefined variable: lname in /home/jschwarzwalder/public_html/it305/pizza/index.php on line 142
+[31-Jan-2016 05:45:09 America/Chicago] PHP Notice:  Undefined variable: method in /home/jschwarzwalder/public_html/it305/pizza/index.php on line 151
