@@ -1,0 +1,2 @@
+[24-Feb-2016 22:06:44 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/jschwarzwalder/public_html/it305/cookie/cookie2.php on line 16
+[24-Feb-2016 22:09:31 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/jschwarzwalder/public_html/it305/cookie/cookie2.php on line 17
