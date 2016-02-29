@@ -82,7 +82,7 @@
 		$sql = "INSERT INTO hello (name, age, color)
 			  VALUES ('$first', '$age', '$color')";
 			  
-		@mysqli_query($cnxn, $sql) or die ("Error executing query: $sql");
+		@mysqli_query($cnxn, $sql) or die ("Error excuting query: $sql");
 		
 		return;
 	  }
