@@ -2,7 +2,7 @@
 	/* Jami Schwarzwalder
 	*  2/28/2016
 	*  http://jschwarzwalder.greenriver.net/it305/assignment9/register.php
-	*  Security to Form
+	*  Register Form
 	*/
 	
 	//Turn on error reporting

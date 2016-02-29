@@ -1,4 +1,10 @@
 <?php
+	/* Jami Schwarzwalder
+	*  2/28/2016
+	*  http://jschwarzwalder.greenriver.net/it305/assignment9/registered.php
+	*  Confirmation
+	*/
+	
 	session_start();
 	$fname = $_SESSION['fname'];
     	
