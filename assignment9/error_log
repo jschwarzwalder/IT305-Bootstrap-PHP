@@ -1,0 +1,35 @@
+[28-Feb-2016 05:22:43 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jschwarzwalder/public_html/it305/assignment9/storeFruit.php:13) in /home/jschwarzwalder/public_html/it305/assignment9/storeFruit.php on line 17
+[28-Feb-2016 05:22:43 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jschwarzwalder/public_html/it305/assignment9/storeFruit.php:13) in /home/jschwarzwalder/public_html/it305/assignment9/storeFruit.php on line 20
+[28-Feb-2016 06:14:29 America/Chicago] PHP Parse error:  syntax error, unexpected 'version' (T_STRING) in /home/jschwarzwalder/public_html/it305/assignment9/example2.php on line 2
+[28-Feb-2016 19:48:37 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 96
+[28-Feb-2016 19:49:08 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 107
+[28-Feb-2016 19:50:42 America/Chicago] PHP Parse error:  syntax error, unexpected '$email' (T_VARIABLE) in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 107
+[28-Feb-2016 19:51:09 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 107
+[28-Feb-2016 20:00:43 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 125
+[28-Feb-2016 20:01:02 America/Chicago] PHP Notice:  Undefined index: HTTP_REFERER in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 53
+[28-Feb-2016 20:01:02 America/Chicago] PHP Notice:  Undefined index: HTTP_REFERER in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 56
+[28-Feb-2016 20:03:17 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 63
+[28-Feb-2016 20:03:21 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 63
+[28-Feb-2016 20:04:03 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 63
+[28-Feb-2016 20:07:56 America/Chicago] PHP Warning:  strstr() expects at least 2 parameters, 1 given in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 63
+[28-Feb-2016 20:29:04 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 152
+[28-Feb-2016 20:29:41 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 152
+[28-Feb-2016 20:30:20 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jschwarzwalder/db.php:10) in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 145
+[28-Feb-2016 20:30:32 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jschwarzwalder/db.php:10) in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 145
+[28-Feb-2016 20:53:48 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 94
+[28-Feb-2016 20:53:48 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 95
+[28-Feb-2016 20:53:48 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 96
+[28-Feb-2016 20:53:48 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 97
+[28-Feb-2016 20:53:48 America/Chicago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 104
+[28-Feb-2016 20:53:48 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jschwarzwalder/public_html/it305/assignment9/register.php:94) in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 118
+[28-Feb-2016 20:54:37 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jschwarzwalder/db.php:10) in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 111
+[28-Feb-2016 20:54:37 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jschwarzwalder/db.php:10) in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 123
+[28-Feb-2016 20:54:49 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 121
+[28-Feb-2016 20:54:57 America/Chicago] PHP Notice:  Undefined variable: isValid in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 121
+[28-Feb-2016 21:09:22 America/Chicago] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 194
+[28-Feb-2016 21:10:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jschwarzwalder/db.php:10) in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 117
+[28-Feb-2016 21:18:36 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 120
+[28-Feb-2016 21:19:30 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 120
+[28-Feb-2016 21:20:03 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jschwarzwalder/db.php:10) in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 118
+[28-Feb-2016 21:21:09 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jschwarzwalder/db.php:10) in /home/jschwarzwalder/public_html/it305/assignment9/register.php on line 118
+[28-Feb-2016 21:21:59 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/jschwarzwalder/public_html/it305/assignment9/registered.php on line 14
