@@ -10,7 +10,7 @@
     error_reporting(E_ALL);
   
 	//Connect to database
-	require '../../db.php';
+	require '../../../db.php';
 ?>  
 <!DOCTYPE html>
 

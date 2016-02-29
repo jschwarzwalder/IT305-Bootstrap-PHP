@@ -5,7 +5,7 @@
   */
   
   //Connect to database
-  require '../../db.php';
+  require '../../../db.php';
 
     
    //Define the SELECT query
