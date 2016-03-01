@@ -2,7 +2,7 @@
 	/* Jami Schwarzwalder
 	*  2/28/2016
 	*  http://jschwarzwalder.greenriver.net/it305/assignment9/register.php
-	*  Register Form
+	*  Security to Form
 	*/
 	
 	//Turn on error reporting
@@ -82,12 +82,36 @@
 			}
 			
 			//Validate Password
-			
+			$error = "";
 			if (!empty($_POST['password1']) && !empty($_POST['password2'])) {
 				if ($_POST['password1'] === $_POST['password2']){
 					$password = $_POST['password1'];
-					$Er_password = false;
 					$Er_match = false;
+					$Er_password = false;
+					if( !preg_match("#[0-9]+#", $password ) ) {
+						$error .= "Password must include at least one number! <br/>";
+						$Er_password = true;
+						$isValid = false;
+					}
+					if( !preg_match("#[a-z]+#", $password ) ) {
+						$error .= "Password must include at least one letter! <br/>";
+						$Er_password = true;
+						$isValid = false;
+						
+					} 
+					if ( !preg_match("#[A-Z]+#", $password ) ) {
+						$error .= "Password must include at least one CAPS! <br/>";
+						$Er_password = true;
+						$isValid = false;
+						
+					} 
+					if( !preg_match("#\W+#", $password ) ) {
+						$error .= "Password must include at least one symbol!<br/>";
+						$Er_password = true;
+						$isValid = false;
+						
+					} 
+					
 				} else {
 					$Er_password = true;
 					$Er_match = true;
@@ -100,7 +124,7 @@
 			}
 			
 			//Send to Database
-			if ($isValid) {
+			if ($isValid || !$Er_password) {
 				
 				//Escape the data
 				$fname = mysqli_real_escape_string($cnxn, $fname);
@@ -195,7 +219,9 @@
                 </div>
                 <div class="form-group">
 					<?php if ($_POST && $Er_password && $Er_match) : ?>
-					<p class="alert alert-danger"> Error, please re-enter a password. </p>	
+					<p class="alert alert-danger"> Error, please re-enter a password. </p>
+					<?php elseif ($_POST && $Er_password && !empty($error)) : ?>
+					<p class="alert alert-danger"> <?php echo $error; ?> </p>
 					<?php elseif ($_POST && $Er_password) : ?>
 					<p class="alert alert-danger"> Please enter a password. </p>
 					<?php endif; ?>
