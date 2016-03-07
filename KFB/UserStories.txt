@@ -1,0 +1,36 @@
+•	A consistent navigation scheme.
+•	Pages have a consistent header with “Kent Food Bank & Emergency Services” and tagline:  “Serving low-income residents of the Kent School District.”
+•	Pages have a consistent footer with address and phone number, and link to contact.
+•	Site content includes:
+o	Information about the food and clothing banks
+o	A home page with a Facebook feed
+o	List of top 10 needed items
+o	Link to donate via PayPal
+o	Information about AmazonSmile and Fred Meyer Community Rewards
+o	A Google map
+o	A Google calendar, with events and hours of operation
+o	A contact form
+o	Information about services provided, including a list of items needed to obtain a food bank card
+o	A volunteer application
+
+As a member of the community, I can view a Home Page for the KFB so that I can quickly get an overview of the organization, find a link to donate, or view status updates.
+
+User Story:  As a member of the community, I can view a Calendar of hours and events so that I can find out when things are.
+As a member of the community, I can view a Contact page to learn more about the KFB.
+Acceptance Criteria:
+•	Page includes a Google map.
+•	Page includes “Hours of operation” which links to the Calendar.
+•	Contact form generates an email.
+
+
+As a potential donor, I can view a Donate page to learn how to donate to the KFB.
+Acceptance Criteria:
+•	Clothing bank
+•	Top 10 needed items
+•	Button to donate via PayPal
+•	Information about AmazonSmile 
+•	Information about Fred Meyer Community Rewards
+
+As a potential recipient of services, I can visit a Services page to learn more. 
+
+As a potential volunteer, I can Apply online so that the KFB can screen my application. 

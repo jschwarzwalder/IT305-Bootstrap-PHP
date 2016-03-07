@@ -1,0 +1,83 @@
+As KFB staff, I can login to the website so that I can access confidential information. 
+---
+User Story:  As a user, I can view a list of annual events.
+
+Acceptance Criteria:
+
+The Calendar page includes a list of annual events.
+When the user clicks on an event, they can see its description. (See Canvas discussion forum.)
+
+---
+
+User Story:  As a user, I can print a copy of the top 10 items to take shopping, so I remember what to buy.
+
+Acceptance Criteria:
+
+A link or button to a "Printable version" of the Top 10 list is added near the list.
+The link opens a separate page that is formatted to print nicely. (No page header, footer, images, etc.)
+A print button icon sends the document directly to the printer.
+ 
+
+--- 
+
+User Story:  As a community member, I can view the KFB's open hours. 
+
+Acceptance Criteria:
+
+All hours of availability are on the Google Calendar
+The Services page includes the following, where the underlined items link to a map:
+Food Distribution (Clients may visit twice a month for food service)
+
+ 
+
+--- 
+
+User Story:  As a member of the community, I can sign up for Community Service so that I can fulfilS my court mandated hours.
+
+Acceptance Criteria:
+
+When “Court Ordered Community Service” is checked on the application form:
+Display option buttons (Yes/No) (required): I have committed theft, fraud, assault, or a crime against children.
+Display option buttons (Yes/No) (required): I am able to lift 40 pounds.
+If user checks crime box, display a message: “We are sorry. You do not qualify to complete your community service at the Kent Food Bank. Please call 211 to find other community service agencies.”
+Include information in the email to KFB.
+--- 
+
+User Story:  As a KFB staff, I can view a Summary of applicants.
+
+Acceptance Criteria:
+
+Volunteer applicants are displayed in a database table, most recent first.
+Application date is automatically stored.
+Table displays name, contact information, volunteer type, and interests.
+Clicking on a donor takes you to a page with all information for that donor.
+ 
+
+--- 
+
+User Story:  As a volunteer applicant, I will get an automatic email so that I know my request has been received.
+
+Acceptance Criteria:
+
+Email is auto-generated when an application is received.
+See Canvas Discussions for text.
+ 
+
+---
+
+User Story:  As KFB staff, I can update the list of top 10 needed items so that it is always current.
+
+Acceptance Criteria:
+
+Top ten items can be edited and saved to the database.
+List of items will be read from the database.
+---
+
+ 
+
+User Story:  As KFB staff, I can view a summary of breakfast sponsors so that I can easily access their contact information.
+
+Acceptance Criteria:
+
+All donation information is displayed in an HTML table.
+Most recent donors are displayed first.
