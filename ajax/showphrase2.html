@@ -1,0 +1,17 @@
+<html>
+<body>
+   <h2>Show me a phrase</h2>
+   <button id="button">Go!</button><br><br>
+   <div id="phrase"></div>
+</body>
+
+<script src="http://code.jquery.com/jquery.js"></script> 
+<script>
+     $("#button").click(function(){
+	 $("#phrase").load('showphrase.php', { num : 3 }, function() {
+	    alert ("All done!")
+	 });
+     });
+</script>
+
+</html>

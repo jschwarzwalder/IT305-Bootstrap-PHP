@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Student Lookup</title>
+</head>
+<body>
+    <h2>Student Lookup</h2>
+    <label>Enter a Student ID:
+        <input type='text' id='id' value='123-45-6789' >
+    </label>
+    <button id='show'>Lookup</button><br><br>
+    
+    <!-- This is where the result will go -->
+    <div id='detail'></div>
+    
+    <script src="http://code.jquery.com/jquery.js"></script> 
+    <script>
+         $('#show').click(function(){
+    
+            var sid = $('#id').val();
+            
+            //Post form data to the server and display the result       
+            $.post(  
+                "student-search.php",
+                { sid : sid },
+                function(result) {
+                    $('#detail').html(result);
+                }
+           );
+        });
+    </script>
+    
+</body>
+</html>

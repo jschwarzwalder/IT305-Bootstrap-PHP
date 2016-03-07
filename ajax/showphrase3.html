@@ -1,0 +1,22 @@
+<html>
+<body>
+   <h2>Enter a name: </h2>
+   <input type='text' id='name' >
+   <button id="button">Go!</button><br><br>
+
+   <div id="phrase"></div>
+</body>
+
+<script src="http://code.jquery.com/jquery.js"></script> 
+<script>
+   $("#button").click(function(){
+      
+       var txtName = $("#name").val();
+       //alert (txtName);
+       $("#phrase").load('showphrase3.php', { name: txtName } );
+    });
+</script>
+
+</html>
+
+

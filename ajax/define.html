@@ -1,0 +1,24 @@
+<html>
+<head>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#definition").load('terms.php', {word: $("#word").val()});
+  });
+});
+</script>
+</head>
+<body>
+
+<h2>Select a term:</h2>
+  <select id='word'>
+    <option value='Ajax'>Ajax</option>
+    <option value='button'>button</option>
+    <option value='load'>load</option>
+  </select>
+  
+<button>Define</button><br /><br />
+<h3><div id="definition"></div></h3>
+</body>
+</html>

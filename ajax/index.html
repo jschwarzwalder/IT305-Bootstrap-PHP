@@ -1,0 +1,25 @@
+
+<h1>Ajax Assignment</h1>
+<select>
+  <option value='ajax'>Ajax</option>
+  <option value='button'>Button</option>
+  <option value='load'>Load</option>
+  <option value='texas'>Texas</option>
+</select>
+
+<button id="define">Define</button>
+
+<p id="definition"></p>
+
+<script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+<script>
+
+  $('#define').click(function(){
+    var ani = $('select').val();
+    $.post('ajax-script.php', {'ani':ani}, function(result){
+      $('#definition').html(result);
+    });
+
+
+  });
+</script>

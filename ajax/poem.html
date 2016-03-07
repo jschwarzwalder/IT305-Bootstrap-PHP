@@ -1,0 +1,16 @@
+<html>
+<body>
+   <h2>Show me a poem</h2>
+   <button id="button">Go!</button><br><br>
+   <div id="poem"></div>
+</body>
+
+<script src="http://code.jquery.com/jquery.js"></script> 
+<script>
+     $("#button").click(function(){
+	   $("#poem").load('poem.txt');
+	   //alert ("The button was clicked");
+     });
+</script>
+
+</html>
